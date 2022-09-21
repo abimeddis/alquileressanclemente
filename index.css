@@ -330,6 +330,11 @@ color: black;
 color: black;
 }
 
+/*whatsapp*/
+.img-whatsapp:hover{
+height: 75px;
+}
+
 /*footer*/
 .enlace-desarrollador:visited{
 color: red;
