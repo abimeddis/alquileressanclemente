@@ -145,37 +145,45 @@ text-decoration: none;
 padding: 60px 30px;
 max-width: 100%;
 color: black;
-font-size: 1rem;
+font-size: 1.3rem;
 text-align: justify;
 gap: 25px;
 }
 
-.contenedor-dptos{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-}
 
-.departamento{
+.departamento1{
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
 border: 5px solid black;
-background-color: rgb(69, 69, 69);
+background-color: rgb(55, 178, 219);
+margin-bottom: 15px;
 }
 
+.div-grid{
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-grid{
+    width: 30%;
+    height: 15%;
+}
 .portada-dptos{
-width: 400px;
-height: 300px;
+width: 75%;
+height: 40%;
 font-family: inherit;
 font-size: inherit;
 }
 
-.detalles{
-text-decoration: none;
-color: #2fb9ce;
+.departamento2{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+border: 5px solid black;
+background-color: white;
+padding: 15px;
 }
 
 /*OPINIONES*/
@@ -222,28 +230,7 @@ font-style: normal;
 padding: 10px 0px;
 }
 
-/*PREGUNTAS*/
 
-#preguntas{
-padding: 60px 50px;
-max-width: 100%;
-color: black;
-text-align: justify;
-font-size: 1.2rem;
-}   
-
-.pregunta{
-padding-top: 30px;
-display: flex;
-flex-direction: column;
-text-align: justify;
-justify-content: space-evenly;
-font-style: normal;
-}
-
-.pregunta h3{
-padding-top: 10px;
-}
 
 /*CONTACTO*/
 
@@ -328,6 +315,12 @@ color: black;
 /*nosotros*/
 .a-preguntas:visited{
 color: black;
+}
+
+/*grid-imagenes*/
+
+.img-grid:hover{
+    scale: 1.8;
 }
 
 /*whatsapp*/
