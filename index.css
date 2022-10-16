@@ -344,7 +344,8 @@ button a {
     transition: all 0.4 ease-out;
   }
   .navbar i {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
   }
 
   #toggle-menu:checked ~ .navbar-list {
@@ -353,6 +354,8 @@ button a {
   }
 
   .navbar {
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
   }
 
@@ -377,6 +380,11 @@ button a {
   .caja-opinion {
     width: 80%;
   }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
 
 @media (min-width: 536px) and (max-width: 714px) {
@@ -386,6 +394,11 @@ button a {
   .contenido-contacto {
     font-size: 2rem;
     font-weight: 100;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
 }
 
@@ -427,5 +440,10 @@ button a {
 
   .logo-whatsapp {
     bottom: 30vw;
+  }
+  .navbar i {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
 }
