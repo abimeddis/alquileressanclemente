@@ -1,178 +1,514 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="index.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"
+      integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  </head>
 
-    <body class="body">
-        <header class="header">
+  <body class="body">
+    <header class="header">
+      <a href="https://www.alquileressanclemente.vercel.app" class="header-logo"
+        ><i class="bi bi-house-fill"></i
+      ></a>
 
-            <a href="https://www.alquileressanclemente.vercel.app" class="header-logo"><i class="bi bi-house-fill"></i></a>
+      <nav class="navbar">
+        <label for="toggle-menu"><i class="bi bi-list"></i></label>
+        <input type="checkbox" id="toggle-menu" />
 
-            <nav class="navbar">
-            
-                <label for="toggle-menu"><i class="bi bi-list"></i></label>
-                <input type="checkbox" id="toggle-menu">
-            
-                <ul class="navbar-list">
-                    <li> <a class="navbar-link" href="#nosotros">NOSOTROS</a> </li>
-                    <li> <a class="navbar-link" href="#alquileres">ALQUILERES</a> </li>
-                    <li> <a class="navbar-link" href="#preguntas">PREGUNTAS</a> </li>
-                    <li> <a class="navbar-link" href="#contacto">CONTACTO</a> </li>
-                </ul>
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="#nosotros">NOSOTROS</a></li>
+          <li><a class="navbar-link" href="#alquileres">ALQUILERES</a></li>
+          <li><a class="navbar-link" href="#contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
 
-            </nav>
+    <section id="hero">
+      <h1>ALQUILERES SAN CLEMENTE DEL TUYÚ</h1>
+      <h2>VISTA AL MAR</h2>
+      <h2>DEPARTAMENTOS PARA 4 Y 5 PERSONAS</h2>
+      <button class="button">
+        <a
+          href="https://wa.me/1169976873?text=Hola%20estoy%20interesado%20en%20los%20alquileres.%20Me%20podría%20brindar%20más%20información"
+          >CONSULTE AQUI</a
+        >
+      </button>
+    </section>
 
-        </header>
+    <section id="nosotros">
+      <h2 class="titulo-section">NOSOTROS</h2>
+      <p class="contenido-section">
+        Nos dedicamos al rubro de alquileres hace más de 4 años, siempre
+        mejorando y trabajando para que las vacaciones de cada uno de ustedes
+        sea lo más cómoda posible. No dudes en consultarnos precios,
+        comodidades, formas de pago y cualquier duda que surja al
+        respecto.Estamos para ayudarte.
+      </p>
+    </section>
 
-        <section id="hero">
-            <h1>ALQUILERES SAN CLEMENTE DEL TUYÚ</h1>
-            <h2>VISTA AL MAR</h2>
-            <h2>DEPARTAMENTOS PARA 4 Y 5 PERSONAS</h2>
-            <button class="button"><a href="https://wa.me/1169976873?text=Hola%20estoy%20interesado%20en%20los%20alquileres.%20Me%20podría%20brindar%20más%20información">CONSULTE AQUI</a></button>
-        </section>
+    <section id="alquileres">
+      <h2 class="titulo-section">NUESTROS DEPARTAMENTOS</h2>
 
-        <section id="nosotros">
-            <h2 class="titulo-section">NOSOTROS</h2>
-            <p class="contenido-section">Nos dedicamos al rubro de alquileres hace más de 4 años, siempre mejorando y trabajando para que las vacaciones de cada uno de ustedes sea lo más cómoda posible. No dudes en consultarnos precios, comodidades, formas de pago y cualquier duda que surja al respecto. También podes consultar nuestra sección <a href="#preguntas" class="a-preguntas">PREGUNTAS FRECUENTES</a>.Estamos para ayudarte.</p>
-        </section>
+        <div class="departamento1">
+          <h3>Departamento para max. 4 personas</h3>
+          <h3>VISTA AL MAR</h3>
 
-        <section id="alquileres">
-
-            <h2 class="titulo-section">NUESTROS DEPARTAMENTOS</h2>
-
-            <div class="contenedor-dptos">
-
-                <div class="departamento1">
-                    <img src="./assets/img-portada-5c.jpg" class="portada-dptos">
-                    <div class="div-grid">
-                        
-                        <img src="./5c/foto2.jpg" class="img-grid">
-                        <img src="./5c/foto3.jpg" class="img-grid">
-                        <img src="./5c/foto5.jpg" class="img-grid">
-                        <img src="./5c/foto6.jpg" class="img-grid">
-                        <img src="./5c/foto7.jpg" class="img-grid">
-                        <img src="./5c/foto1.jpg" class="img-grid">
-                    </div> 
-                    <h3>Departamento para max. 4 personas</h3>
-                    <h3>VISTA AL MAR</h3>
-                        <p>DEPARTAMENTO CON VISTA AL MAR. – 4 PERSONAS. </p>
-                        <p>El departamento cuenta con 2 ambientes amplios, se encuentra a 50 metros de la peatonal y a 1 cuadra de la playa a la altura del muelle. En la puerta se encuentra la parada de colectivo que los lleva desde y hasta la terminal de ómnibus y a mundo marino.</p>
-                        <p>COMODIDADES:</p> 
-                        <p>COCINA COMEDOR:</p> 
-                        <p>De la puerta de ingreso tenemos acceso a la cocina comedor que cuenta con pava eléctrica, microondas, cocina con horno y extractor, mesada de marmol, agua fría y caliente. Tenemos heladera, Smart TV con cable, importante espejo, sillón cama de 1 plaza y cama carrito por debajo de 1 plaza. Ventanal con salida al balcón y vista al mar.</p> 
-                        <p>BAÑO: </p>
-                        <p>Inodoro, bidet, ducha con agua fría y caliente, extractor, lava manos y botiquín con espejo. </p>
-                        <p>HABITACIÓN: </p>
-                        <p>Cama matrimonial, mesas de luz, televisión con cable, placard empotrado, ventada con vista al mar. </p>
-                        <p>WIFi en temporada. </p>
-                        <p>RESERVA: </p>
-                        <p>Se reserva con el 50% del valor del total de los días, en efectivo o mediante transferencia. Cualquiera sea el medio elegido se entrega recibo de reserva con los datos de ambas partes, ubicación del departamento, cantidad de días, monto total y monto de la reserva. </p>
-                        <p>DEPOSITO: </p>
-                        <p>Al ingresar al departamento se deberá abonar un depósito de $10.000 que se reintegran al finalizar la estadía si no hay nada roto, sucio en demasía o manchado. </p>
-                        <p>PRECIO: </p>
-                        <p> El precio es de $10.000 por día. (A dicho monto deberá sumársele depósito y sanitización) </p>
-                        <p>No incluye sabanas y toallas. </p>
-                        <p>No se aceptan mascotas.</p>
-                </div>
-
-                <div class="departamento2">
-                    <img src="./5a/portada.jpg" class="portada-dptos"> 
-                    <div class="div-grid">
-                        
-                        <img src="./5a/foto1.jpeg" class="img-grid">
-                        <img src="./5a/foto2.jpeg" class="img-grid">
-                        <img src="./5a/foto3.jpg" class="img-grid">
-                        <img src="./5a/foto4.jpg" class="img-grid">
-                        <img src="./5a/foto5.jpg" class="img-grid">
-                        <img src="./5a/foto6.jpg" class="img-grid">
-                        <img src="./5a/foto7.jpg" class="img-grid">
-                        <img src="./5a/foto8.jpg" class="img-grid">
-                        <img src="./5a/foto9.jpg" class="img-grid">
-                        <img src="./5a/foto10.jpg" class="img-grid">
-                        <img src="./5a/foto11.jpeg" class="img-grid">
-                        <img src="./5a/foto12.jpeg" class="img-grid">
-                       
-                    </div> 
-
-                    <h3>Departamento para max. 5 personas</h3>
-                    <h3>VISTA PANORAMICA AL MAR</h3>
-                    <p>DEPARTAMENTO CON VISTA PANORAMICA AL MAR. – 5 PERSONAS MAX. </p>
-                    <p>El departamento cuenta con 4 ambientes amplios y balcón con vista panorámica al mar, se encuentra a 50 metros de la peatonal y a 1 cuadra de la playa a la altura del muelle. En la puerta se encuentra la parada de colectivo que los lleva desde y hasta la terminal de ómnibus y a mundo marino. </p>
-                    <p>COMODIDADES: con WIFI </p>
-                    <p>LIVING COMEDOR: </p>                    
-                    <p>De la puerta de ingreso tenemos acceso al amplio living comedor que cuenta con una mesa redonda con sillas, sillón amplio de 1 plaza, Smart tv con cable y acceso por ventanal al balcón con vista panorámica al mar. </p>
-                    <p>COCINA: </p>
-                    <p>Por la puerta de acceso y siguiendo hacia el pasillo (recorrido del video) nos encontramos con una amplia cocina separada, cuenta con pava eléctrica, microondas, cocina con horno, heladera con freezer, mesada de acero, agua fría y caliente.</p>                     
-                    <p>BAÑO:</p>               
-                    <p>Inodoro, bidet, ducha con agua fría y caliente, lava manos y botiquín con espejo. </p>
-                    <p>HABITACIÓN 1: </p>
-                    <p>Cama matrimonial, mesas de luz, televisión con cable, placard empotrado, ventana con vista al mar. </p>
-                    <p>HABITACIÓN 2: </p>
-                    <p>Cama matrimonial, mesas de luz, cama de 1 plaza, placard empotrado, ventana con vista al mar. </p>
-                    <p>RESERVA: </p>
-                    <p>Se reserva con el 50% del valor del total de los días, en efectivo o mediante transferencia. Cualquiera sea el medio elegido se entrega recibo de reserva con los datos de ambas partes, ubicación del departamento, cantidad de días, monto total y monto de la reserva. </p>
-                    <p>DEPOSITO: </p>
-                    <p>Al ingresar al departamento se deberá abonar un depósito de $10.000 que se reintegran al finalizar la estadía si no hay nada roto, sucio en demasía o manchado. </p>
-                    <p>No incluye sabanas y toallas. </p>
-                    <p>No se aceptan mascotas.</p>
-                </div>
-
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada1.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada2.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada3.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada4.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada5.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada6.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada7.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada8.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada9.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada10.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5c/portada11.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
             </div>
-        </section>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p>DEPARTAMENTO CON VISTA AL MAR. – 4 PERSONAS.</p>
+          <p>
+            El departamento cuenta con 2 ambientes amplios, se encuentra a 50
+            metros de la peatonal y a 1 cuadra de la playa a la altura del
+            muelle. En la puerta se encuentra la parada de colectivo que los
+            lleva desde y hasta la terminal de ómnibus y a mundo marino.
+          </p>
+          <p>COMODIDADES:</p>
+          <p>COCINA COMEDOR:</p>
+          <p>
+            De la puerta de ingreso tenemos acceso a la cocina comedor que
+            cuenta con pava eléctrica, microondas, cocina con horno y extractor,
+            mesada de marmol, agua fría y caliente. Tenemos heladera, Smart TV
+            con cable, importante espejo, sillón cama de 1 plaza y cama carrito
+            por debajo de 1 plaza. Ventanal con salida al balcón y vista al mar.
+          </p>
+          <p>BAÑO:</p>
+          <p>
+            Inodoro, bidet, ducha con agua fría y caliente, extractor, lava
+            manos y botiquín con espejo.
+          </p>
+          <p>HABITACIÓN:</p>
+          <p>
+            Cama matrimonial, mesas de luz, televisión con cable, placard
+            empotrado, ventada con vista al mar.
+          </p>
+          <p>WIFi en temporada.</p>
+          <p>RESERVA:</p>
+          <p>
+            Se reserva con el 50% del valor del total de los días, en efectivo o
+            mediante transferencia. Cualquiera sea el medio elegido se entrega
+            recibo de reserva con los datos de ambas partes, ubicación del
+            departamento, cantidad de días, monto total y monto de la reserva.
+          </p>
+          <p>DEPOSITO:</p>
+          <p>
+            Al ingresar al departamento se deberá abonar un depósito de $12.000
+            que se reintegran al finalizar la estadía si no hay nada roto, sucio
+            en demasía o manchado.
+          </p>
+          <p>PRECIO:</p>
+          <p>
+            El precio es de $12.000 por día. (A dicho monto deberá sumársele
+            depósito)
+          </p>
+          <p>No incluye sabanas y toallas.</p>
+          <p>No se aceptan mascotas.</p>
+        </div>
 
-        <section id="opiniones">
-            <h2 class="titulo-section">OPINIONES</h2>
+        <div class="departamento2">
+          <h3>Departamento para max. 5 personas</h3>
+          <h3>VISTA PANORAMICA AL MAR</h3>
 
-            <div class="cards-opiniones">
-
-                <div class="caja-opinion">
-                    <h3 class="nombre"><b>Fernando Herrera</b></h3>
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                    <h3 class="opinion">Nos encantó el lugar, el departamento muy buen ubicado con vista al mar y atendido por sus dueños con una excelente predisposición para con nosotros. Gracias por hacernos sentir tan cómodos. Nosoquis alquilamos para 4 personas, matrimonio con 2 hijos, todos cómodos en el departamento. Volveremos.</h3>
-                </div>
-
-                <div class="caja-opinion">
-                    <h3 class="nombre"><b>Noemí Gomez</b></h3>
-                    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
-                    <h3 class="opinion">La verdad un lugar excelente, muy buena ubicación, hermosa vista. Fuimos con mi pareja una semana y la pasamos realmente bien!! Los dueños personas super agradables y responsables!! Sin pensarlo dos veces lo super recomiendo. </h3>
-                </div>
-            
-                <div class="caja-opinion">
-                    <h3 class="nombre"><b>Milagros Jennifer</b></h3>
-                    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
-                    <h3 class="opinion">Muy lindo y recomendable, encima todo esta muy cerca.</h3>
-                </div>
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="0.7">
+                <img src="./5a/portada11.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img src="./5a/portada2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img src="./5a/portada3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img src="./5a/portada4.jpg" alt="..." />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5a/portada5.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5a/portada6.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img src="./5a/portada7.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img src="./5a/portada8.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5a/portada9.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5a/portada10.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5a/portada1.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="0.7">
+                <img
+                  src="./5a/portada12.jpg"
+                  class="d-block w-100"
+                  class="img-carru"
+                  alt="..."
+                />
+              </div>
             </div>
-        </section>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
-        <section id="contacto">
-            <h2 class="titulo-section">CONTACTO</h2>
-           
-            <div class="contacto">
-                <div class="contenido-contacto">
-                <h3>UBICACIÓN: AV. San Martín 107. San Clemente del Tuyú.</h3>
-                <h3>Ingreso: A partir de las 11 am. </h3>
-                <h3>Egreso: 9 am.</h3>
-                <h3>Teléfono: (011) 15-6053-2557 Eduardo. </h3>
-                </div>
-                
-                <div>
-                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.2098169116334!2d-56.72202918547684!3d-36.35569638004257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c1b5fc89a7dd7%3A0xb927e9f34ff77037!2sAv.%20San%20Mart%C3%ADn%20107%2C%20San%20Clemente%20del%20Tuyu%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1663770272868!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </section>
+          <p>DEPARTAMENTO CON VISTA PANORAMICA AL MAR. – 5 PERSONAS MAX.</p>
+          <p>
+            El departamento cuenta con 4 ambientes amplios y balcón con vista
+            panorámica al mar, se encuentra a 50 metros de la peatonal y a 1
+            cuadra de la playa a la altura del muelle. En la puerta se encuentra
+            la parada de colectivo que los lleva desde y hasta la terminal de
+            ómnibus y a mundo marino.
+          </p>
+          <p>COMODIDADES: con WIFI</p>
+          <p>LIVING COMEDOR:</p>
+          <p>
+            De la puerta de ingreso tenemos acceso al amplio living comedor que
+            cuenta con una mesa redonda con sillas, sillón amplio de 1 plaza,
+            Smart tv con cable y acceso por ventanal al balcón con vista
+            panorámica al mar.
+          </p>
+          <p>COCINA:</p>
+          <p>
+            Por la puerta de acceso y siguiendo hacia el pasillo (recorrido del
+            video) nos encontramos con una amplia cocina separada, cuenta con
+            pava eléctrica, microondas, cocina con horno, heladera con freezer,
+            mesada de acero, agua fría y caliente.
+          </p>
+          <p>BAÑO:</p>
+          <p>
+            Inodoro, bidet, ducha con agua fría y caliente, lava manos y
+            botiquín con espejo.
+          </p>
+          <p>HABITACIÓN 1:</p>
+          <p>
+            Cama matrimonial, mesas de luz, televisión con cable, placard
+            empotrado, ventana con vista al mar.
+          </p>
+          <p>HABITACIÓN 2:</p>
+          <p>
+            Cama matrimonial, mesas de luz, cama de 1 plaza, placard empotrado,
+            ventana con vista al mar.
+          </p>
+          <p>El valor por día es de $17.000.</p>
+          <p>RESERVA:</p>
+          <p>
+            Se reserva con el 50% del valor del total de los días, en efectivo o
+            mediante transferencia. Cualquiera sea el medio elegido se entrega
+            recibo de reserva con los datos de ambas partes, ubicación del
+            departamento, cantidad de días, monto total y monto de la reserva.
+          </p>
+          <p>DEPOSITO:</p>
+          <p>
+            Al ingresar al departamento se deberá abonar un depósito de $17.000
+            que se reintegran al finalizar la estadía si no hay nada roto, sucio
+            en demasía o manchado.
+          </p>
+          <p>No incluye sabanas y toallas.</p>
+          <p>No se aceptan mascotas.</p>
+        </div>
+      </div>
+    </section>
 
-        <div class="whatsapp"> <a href="https://wa.me/+5491160532557?text=Hola%20estoy%20interesado%20en%20los%20alquileres.%20Me%20podría%20brindar%20más%20información" class="logo-whatsapp" target="_blank"><img src="./assets/logo.whatsapp.png" class="img-whatsapp"></a></div>
+    <section id="opiniones">
+      <h2 class="titulo-section">OPINIONES</h2>
 
-        <footer class="footer">
-            <p class="footer-copyright">Copyright © 2022- Alquileres San Clemente del Tuyú | Todos los derechos reservados | Desarrollado por <a href="mailto:abigailmeddis@gmail.com" class="enlace-desarrollador">Abigail Meddis</a></p>
-            
-        </footer>
-    </body>
+      <div class="cards-opiniones">
+        <div class="caja-opinion">
+          <h3 class="nombre"><b>Fernando Herrera</b></h3>
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i>
+          <h3 class="opinion">
+            Nos encantó el lugar, el departamento muy buen ubicado con vista al
+            mar y atendido por sus dueños con una excelente predisposición para
+            con nosotros. Gracias por hacernos sentir tan cómodos. Nosoquis
+            alquilamos para 4 personas, matrimonio con 2 hijos, todos cómodos en
+            el departamento. Volveremos.
+          </h3>
+        </div>
+
+        <div class="caja-opinion">
+          <h3 class="nombre"><b>Noemí Gomez</b></h3>
+          <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h3 class="opinion">
+            La verdad un lugar excelente, muy buena ubicación, hermosa vista.
+            Fuimos con mi pareja una semana y la pasamos realmente bien!! Los
+            dueños personas super agradables y responsables!! Sin pensarlo dos
+            veces lo super recomiendo.
+          </h3>
+        </div>
+
+        <div class="caja-opinion">
+          <h3 class="nombre"><b>Milagros Jennifer</b></h3>
+          <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h3 class="opinion">
+            Muy lindo y recomendable, encima todo esta muy cerca.
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2 class="titulo-section">CONTACTO</h2>
+
+      <div class="contacto">
+        <div class="contenido-contacto">
+          <h3>UBICACIÓN: AV. San Martín 107. San Clemente del Tuyú.</h3>
+          <h3>Ingreso: A partir de las 11 am.</h3>
+          <h3>Egreso: 9 am.</h3>
+          <h3>Teléfono: (011) 15-6053-2557 Eduardo.</h3>
+        </div>
+
+        <div>
+          <iframe
+            class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.2098169116334!2d-56.72202918547684!3d-36.35569638004257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c1b5fc89a7dd7%3A0xb927e9f34ff77037!2sAv.%20San%20Mart%C3%ADn%20107%2C%20San%20Clemente%20del%20Tuyu%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1663770272868!5m2!1ses-419!2sar"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <div class="whatsapp">
+      <a
+        href="https://wa.me/+5491160532557?text=Hola%20estoy%20interesado%20en%20los%20alquileres.%20Me%20podría%20brindar%20más%20información"
+        class="logo-whatsapp"
+        target="_blank"
+        ><img src="./assets/logo.whatsapp.png" class="img-whatsapp"
+      /></a>
+    </div>
+
+    <footer class="footer">
+      <p class="footer-copyright">
+        Copyright © 2022- Alquileres San Clemente del Tuyú | Todos los derechos
+        reservados | Desarrollado por
+        <a href="mailto:abigailmeddis@gmail.com" class="enlace-desarrollador"
+          >Abigail Meddis</a
+        >
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+  </body>
 </html>
