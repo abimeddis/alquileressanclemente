@@ -132,6 +132,10 @@ button a {
   text-decoration: underline;
   font-weight: 500;
   padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .a-preguntas {
@@ -254,7 +258,7 @@ button a {
 
 .mapa {
   height: 300px;
-  width: 50%;
+  width: 350px;
 }
 
 /*FOOTER*/
