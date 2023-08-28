@@ -7,7 +7,7 @@
 }
 
 .body {
-  background-color: white;
+  background-color: #c9c6c1;
 }
 
 /*HEADER*/
@@ -20,13 +20,13 @@
   justify-content: space-around;
   flex-wrap: wrap;
   position: fixed;
-  background-color: rgba(75, 72, 72);
+  background-color: #f4e5c4;
   z-index: 1;
 }
 
 .header-logo {
   font-size: 40px;
-  color: rgb(77, 221, 253);
+  color: #38789e;
 }
 
 .navbar {
@@ -38,7 +38,7 @@
 
 .navbar i {
   font-size: 40px;
-  color: white;
+  color: #000000;
   display: none;
 }
 
@@ -51,14 +51,14 @@
   list-style: none;
   width: 100%;
   height: 100%;
-  color: white;
+  color: #000000;
   align-items: center;
   justify-content: space-around;
 }
 
 .navbar-link {
   text-decoration: none;
-  color: white;
+  color: #000000;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 1.2rem;
@@ -71,7 +71,7 @@
 /*HERO*/
 
 #hero {
-  background-image: url(./fondo.jpg);
+  background-image: url(./background\ playa.png);
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -80,8 +80,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-  text-shadow: #2fb9ce 1px 0 10px;
+  color: #000000;
+  text-shadow: #38789e 3px 4px 10px;
   gap: 15px;
 }
 
@@ -119,12 +119,11 @@ button a {
 #nosotros {
   padding: 60px 30px;
   max-width: 100%;
-  color: white;
-  background-color: rgb(69, 69, 69);
+  color: #000000;
   font-size: 1.2rem;
   text-align: justify;
   gap: 25px;
-  border: 5px solid black;
+  text-shadow: #efb58a 3px 4px 10px;
 }
 
 .titulo-section {
@@ -136,6 +135,7 @@ button a {
   justify-content: center;
   text-align: center;
   align-items: center;
+  text-shadow: #efb58a 3px 4px 10px;
 }
 
 .a-preguntas {
@@ -173,7 +173,7 @@ button a {
   align-items: center;
   text-align: center;
   border: 5px solid black;
-  background-color: rgb(55, 178, 219);
+  background-color: #a29372;
   margin-bottom: 15px;
 }
 
@@ -183,7 +183,7 @@ button a {
   align-items: center;
   text-align: center;
   border: 5px solid black;
-  background-color: white;
+  background-color: #f4e5c4;
   padding: 15px;
 }
 
@@ -191,12 +191,11 @@ button a {
 #opiniones {
   padding: 60px 30px;
   max-width: 100%;
-  color: white;
-  background-color: rgb(69, 69, 69);
+  color: #000000;
+  background-color: #c9c6c1;
   font-size: 1.2rem;
   text-align: justify;
   gap: 25px;
-  border: 5px solid black;
 }
 
 .cards-opiniones {
@@ -214,7 +213,7 @@ button a {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  border: 5px solid black;
+  border-radius: 25px;
   background-color: white;
   color: black;
   gap: 15px;
@@ -258,7 +257,8 @@ button a {
 
 .mapa {
   height: 300px;
-  width: 350px;
+  min-width: 350px;
+  border-radius: 25px 15px;
 }
 
 /*FOOTER*/
@@ -278,7 +278,11 @@ button a {
 
 .enlace-desarrollador {
   text-decoration: none;
-  color: red;
+  color: #38789e;
+  text-shadow: #38789e 3px 4px 10px;
+  font-weight: bolder;
+  font-size: large;
+  gap: 2px;
 }
 
 .logo-whatsapp {
